@@ -1,0 +1,37 @@
+{
+    "name": "Pandora.tv Fullscreen",
+    "description": "Make videos fullscreen from pandora.tv even if you are not a member.",
+    "version": "0.0.1",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "icons": {
+        "16":"icons/sizes/pandora_tvfullscreen-16.png",
+        "19":"icons/sizes/pandora_tvfullscreen-19.png",
+        "34":"icons/sizes/pandora_tvfullscreen-34.png",
+        "38":"icons/sizes/pandora_tvfullscreen-38.png",
+        "48":"icons/sizes/pandora_tvfullscreen-48.png",
+        "64":"icons/sizes/pandora_tvfullscreen-64.png",
+        "128":"icons/sizes/pandora_tvfullscreen-128.png",
+        "256":"icons/sizes/pandora_tvfullscreen-256.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_title": "Pandora.tv Fullscreen",
+        "default_icon": {
+            "16":"icons/sizes/pandora_tvfullscreen-16.png",
+            "19":"icons/sizes/pandora_tvfullscreen-19.png",
+            "34":"icons/sizes/pandora_tvfullscreen-34.png",
+            "38":"icons/sizes/pandora_tvfullscreen-38.png",
+            "48":"icons/sizes/pandora_tvfullscreen-48.png",
+            "64":"icons/sizes/pandora_tvfullscreen-64.png",
+            "128":"icons/sizes/pandora_tvfullscreen-128.png",
+            "256":"icons/sizes/pandora_tvfullscreen-256.png"
+        }
+    },
+    "manifest_version": 2
+}
